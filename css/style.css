@@ -1,0 +1,59 @@
+/*navbar section*/
+
+/*intro section*/
+.intro-header{
+	left: 0;
+	right: 0;
+}
+.intro-text{
+	font-family: 'Texturina', serif;
+}
+#particles-js{
+	background: #00043e;
+	height: 37em;
+}
+/* Calculator */
+#scalar{
+	display: none;
+}
+/* Solution */
+#solution{
+	display: none;
+}
+#calculator{
+	background-color: #f6f4f4;
+}
+/* Team */
+#team{
+  background-image: url("../images/macaw.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+#team:before{
+  content: '';
+    background: rgba(0,0,0,.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.img-circle{
+  border-radius: 50%;
+}
+.team-position{
+  color:#57cbcc;
+}
+/* Mobile quieries*/
+@media screen and (max-width: 991px) and (min-width: 308px) {
+  .header-function{
+   display: none;
+ }
+ .header-headtext{
+  font-size: 2.8em;
+}
+}
